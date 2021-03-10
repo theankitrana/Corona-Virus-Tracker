@@ -1,0 +1,21 @@
+/* To make the content of the table fixed at a given place and make it's contents scrollable */
+.table {
+  margin-top: 20px;
+  overflow: scroll;
+  height: 400px;
+  color: #6a5d5d;
+}
+
+/* To Make Odd Row Number Appear Differently*/
+.table tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
+
+.table td {
+  padding: 0.5rem;
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
